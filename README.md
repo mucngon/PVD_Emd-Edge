@@ -1,11 +1,11 @@
 
 # 📽️ README - Giấu tin trong video với nhiều kỹ thuật PVD
 
-Dự án thực hiện giấu tin vào video bằng các kỹ thuật khác nhau như **PVD**, **PVD_Edge**, và **PVD_EMD**.  
+Dự án thực hiện giấu tin vào video bằng các kỹ thuật khác nhau như , **PVD_Edge**, và **PVD_EMD**.  
 Dưới đây là các nhiệm vụ chính trong dự án:
 
 ---
-
+# **PVD-Edge**
 ## ✅ Nhiệm vụ 1: Chuyển 1 đoạn tin thành bit
 
 - **File**: `messtobit.py`
@@ -74,6 +74,83 @@ Dưới đây là các nhiệm vụ chính trong dự án:
 - **File**: `compare_stats.py`
 - **Cách dùng**:
   ```bash
-  nano compare_stats.py     # Sửa file và chỉnh đường dẫn hợp lý
-  python3 compare_stats.py  # Chạy file
-  ```
+
+# PVD-EMD
+# Hướng Dẫn Sử Dụng Dự Án Giấu Tin Trong Video
+
+## Giới Thiệu
+Dự án này bao gồm các bước liên quan đến việc giấu thông tin vào trong video bằng phương pháp PVD (Pixel Value Differencing). Các nhiệm vụ chủ yếu bao gồm chuyển đổi thông điệp thành dạng bit, giấu thông điệp vào video và kiểm tra kết quả sau khi giấu.
+
+## Các Nhiệm Vụ
+
+### Nhiệm Vụ 1: Chuyển Đoạn Tin Thành Bit
+Để chuyển đổi một đoạn tin thành dạng bit, mở file `message_to_bit.py` và chỉnh sửa thông điệp cần giấu.
+
+#### Các bước thực hiện:
+1. Mở file để chỉnh sửa thông điệp:
+    ```bash
+    nano message_to_bit.py
+    ```
+2. Để chạy chương trình chuyển đổi tin thành bit:
+    ```bash
+    python3 message_to_bit.py
+    ```
+
+### Nhiệm Vụ 2: Giấu Đoạn Tin "lam nguoi yeu anh nhe" Bằng PVD_EMD
+Giấu thông điệp vào video bằng phương pháp PVD_emd.
+
+#### Các bước thực hiện:
+1. Để chạy chương trình giấu tin:
+    ```bash
+    python3 PVD_EMD_Embed.py
+    ```
+
+### Nhiệm Vụ 3: Giải Tin Được Giấu Bằng PVD_Emd
+Giải mã thông tin đã được giấu trong video bằng PVD_emd.
+
+#### Các bước thực hiện:
+1. Để chạy chương trình giải mã tin:
+    ```bash
+    python3 PVD_EMD_extract.py
+    ```
+
+### Nhiệm Vụ 5: Giấu Tin Bằng PVD
+Giấu thông tin vào video bằng phương pháp PVD.
+
+#### Các bước thực hiện:
+1. Mở file để chỉnh sửa thông điệp và video đầu vào:
+    ```bash
+    nano PVD.py
+    ```
+2. Để chạy chương trình giấu tin:
+    ```bash
+    python3 PVD.py
+    ```
+
+### Nhiệm Vụ 6: Kiểm Tra Kích Thước Của Video Xuất Ra
+Kiểm tra kích thước của video sau khi đã giấu thông tin.
+
+#### Các bước thực hiện:
+1. Mở file để thay đổi đường dẫn của video:
+    ```bash
+    nano checksize.py
+    ```
+2. Để chạy chương trình kiểm tra kích thước:
+    ```bash
+    python3 checksize.py
+    ```
+
+### Nhiệm Vụ 7: So Sánh Hai File Trước Và Sau Khi Giấu
+So sánh hai file video trước và sau khi giấu thông tin.
+
+#### Các bước thực hiện:
+1. Mở file để chỉnh sửa đường dẫn:
+    ```bash
+    nano compare_stats.py
+    ```
+2. Để chạy chương trình so sánh:
+    ```bash
+    python3 compare_stats.py
+    ```
+
+
