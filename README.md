@@ -114,7 +114,7 @@ Giải mã thông tin đã được giấu trong video bằng PVD_emd.
     python3 PVD_EMD_extract.py
     ```
 
-### Nhiệm Vụ 5: Giấu Tin Bằng PVD
+### Nhiệm Vụ 4: Giấu Tin Bằng PVD
 Giấu thông tin vào video bằng phương pháp PVD.
 
 #### Các bước thực hiện:
@@ -127,7 +127,7 @@ Giấu thông tin vào video bằng phương pháp PVD.
     python3 PVD.py
     ```
 
-### Nhiệm Vụ 6: Kiểm Tra Kích Thước Của Video Xuất Ra
+### Nhiệm Vụ 5: Kiểm Tra Kích Thước Của Video Xuất Ra
 Kiểm tra kích thước của video sau khi đã giấu thông tin.
 
 #### Các bước thực hiện:
@@ -140,7 +140,7 @@ Kiểm tra kích thước của video sau khi đã giấu thông tin.
     python3 checksize.py
     ```
 
-### Nhiệm Vụ 7: So Sánh Hai File Trước Và Sau Khi Giấu
+### Nhiệm Vụ 6: So Sánh Hai File Trước Và Sau Khi Giấu
 So sánh hai file video trước và sau khi giấu thông tin.
 
 #### Các bước thực hiện:
